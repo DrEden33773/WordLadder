@@ -100,7 +100,7 @@ class BFSHelper {
         }
     }
 
-    void show_result() const {
+    void show_result() {
         using std::cout;
         using std::endl;
         static constexpr int DIV = 5;
