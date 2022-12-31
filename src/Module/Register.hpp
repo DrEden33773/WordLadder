@@ -136,6 +136,7 @@ public:
         if (last_source.length() == info.first.length()) {
             return; // don't need to registry
         }
+
         register_graph(info.first);
         adjust_graph(info.first);
 
